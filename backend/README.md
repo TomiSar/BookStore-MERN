@@ -2,11 +2,11 @@
 
 ## API endpoints (Books)
 
-- http://localhost:5000/api/books/:bookId (GET Place byPlaceId)
-- http://localhost:5000/api/books/ (GET Places byUserId)
-- http://localhost:5000/api/books/ (POST create new Book)
-- http://localhost:5000/api/books/:bookId (PATCH update Book byId)
-- http://localhost:5000/api/books/:bookId (DELETE Place byId)
+- http://localhost:5000/api/books/:bookId (GET Book byBookId)
+- http://localhost:5000/api/books/ (GET All Books)
+- http://localhost:5000/api/books/ (POST Create new Book)
+- http://localhost:5000/api/books/:bookId (PATCH update Book byBookId)
+- http://localhost:5000/api/books/:bookId (DELETE Book byBookId)
 
 ## Creating config for MongoDB URI connection string
 - mkdir in root directory config 
