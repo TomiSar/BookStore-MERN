@@ -17,7 +17,7 @@ router.get('/', async (req, res, next) => {
 
   res.status(200).json({
     count: books.length,
-    books: books.map((book) => book.toObject({ getters: true })),
+    book: books.map((book) => book.toObject({ getters: true })),
   });
 });
 

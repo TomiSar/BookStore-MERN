@@ -1,4 +1,4 @@
-# Fullstack React.js applications with Node.js, Express.js & MongoDB (MERN)
+# Fullstack small Book-application React.js application with Node.js, Express.js & MongoDB (MERN)
 
 ## API endpoints (Books)
 
@@ -7,6 +7,13 @@
 - http://localhost:5000/api/books/ (POST create new Book)
 - http://localhost:5000/api/books/:bookId (PATCH update Book byId)
 - http://localhost:5000/api/books/:bookId (DELETE Place byId)
+
+## Creating config for MongoDB URI connection string
+- mkdir in root directory config 
+- inside config create file .env (touch .env)
+
+## .env file add MongoDB connection string with credentials
+- MONGO_URI=mongodb+srv://{username}:{password}@{username}.jb7l6.mongodb.net/{database}  
 
 ## install dependencies (backend)
 

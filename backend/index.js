@@ -9,10 +9,10 @@ const booksRoute = require('./routes/booksRoute.js');
 const { PORT } = require('./config');
 
 const app = express();
+dotenv.config({ path: path.resolve(__dirname, './config/.env') });
 app.use(bodyParser.json());
 app.use(cors());
 app.use(morgan('dev'));
-dotenv.config({ path: path.resolve(__dirname, './config/.env') });
 
 app.get('/', (request, response) => {
   console.log(request);
